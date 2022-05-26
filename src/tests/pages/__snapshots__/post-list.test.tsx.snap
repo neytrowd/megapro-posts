@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post list should been called 1`] = `
+<div
+  class="MuiBox-root css-0"
+  data-testid="post-list-page"
+>
+  <div
+    class="MuiBox-root css-1xn3edc"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+    >
+      Post list
+    </h4>
+  </div>
+  <div
+    class="root MuiBox-root css-0"
+  >
+    <h6
+      class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+    >
+      Loading...
+    </h6>
+  </div>
+</div>
+`;

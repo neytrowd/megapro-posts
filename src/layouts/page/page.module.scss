@@ -1,0 +1,58 @@
+.root {
+  margin: 0 auto;
+  max-width: 1330px;
+  min-height: 100vh;
+  position: relative;
+  padding: 0 15px;
+  padding-bottom: 80px;
+
+  .header {
+    padding-bottom: 90px;
+
+    .navbar {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: 1300px;
+    }
+
+    .link {
+      margin-left: 30px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+  .footer {
+    position: absolute;
+    padding-bottom: 30px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      color: #828282;
+      text-decoration: none;
+    }
+
+    .copyright {
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    .developer {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
